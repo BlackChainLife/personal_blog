@@ -1,27 +1,51 @@
 ---
-
-
-
+title: "NLP APIass平台服务能力和价格的对比"
+date: 2024-09-20T14:30:08+00:00
+# weight: 1
+# aliases: ["/first"]
+tags: ["NLP"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "通过调用各家提供的API进行测试，而不是自己搭建服务或者编写对应的算法"
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/BlackChainLife/personal_blog/tree/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
-[toc]
-
 # 对比方法
-
 1. 从东方财富网的股吧选取一条评论
 2. 调用腾讯、阿里、百度的 nlp 情感分析的接口和 openai
-
 3. 调用 LLM 模型：openai、ollama 模型
 4. 通过 API 调用、调试、文档、响应速度、准确率进行分析
 
 # 情感分析
-
 对比文本：一千五百倍的市盈率，这种不赚钱的公司也能上天吗
-
 ## 腾讯云
-
 **腾讯云判定结果为中性词语**
-
 ```json
 { "Response": 
      { 
