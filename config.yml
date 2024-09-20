@@ -1,0 +1,14 @@
+baseURL: https://blackchainlife.github.io/
+languageCode:  zh-Hans
+title: happy-tech.me
+theme: PaperMod
+paginate: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
